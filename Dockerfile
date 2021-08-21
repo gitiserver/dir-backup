@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk update && apk add bash && rm -rf /var/cache/apk/*
+RUN apk update && apk add bash zip && rm -rf /var/cache/apk/*
 
 WORKDIR /var/scripts/backup
 

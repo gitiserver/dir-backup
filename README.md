@@ -4,7 +4,7 @@ Backup&Compress a directory regularly.
 ## Enviroments
 | Variable   |   Description      |
 |----------|:-------------:|
-| DRIVER   | the backup compression method `tar`, `tar.gz`, `tar.bz2`, `tar.xz` |
+| DRIVER   | the backup compression method `tar`, `tar.gz`, `tar.bz2`, `tar.xz`, `zip` |
 | DURATION | Linux `sleep` time format |
 | COUNT | Number of last backup that must be saved to volume. if number become longer than this value the first created backup file will be removed |
 
