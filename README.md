@@ -14,7 +14,7 @@ Backup&Compress a directory regularly.
 version: "3.8"
 services:
   backuper:
-    image: gitiserver/dir-backup:1.0
+    image: gitiserver/dir-backup:latest
     environment:
       DRIVER: "tar.gz"
       DURATION: "1d"
