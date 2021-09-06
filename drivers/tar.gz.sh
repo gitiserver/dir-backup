@@ -6,6 +6,6 @@ PTH=$(pwd)/backups/$FILENAME
 
 echo "making backup $FILENAME ..."
 
-/bin/tar -czf $PTH /var/data/
+/bin/tar -C /var/data/ -czf $PTH ./
 
 echo "backup $FILENAME finished"
